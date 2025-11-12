@@ -19,4 +19,4 @@ This library is used for measuring code execution time on STM32 MCUs using a har
  + Call code_execution_timer_init(&htimX) before your super-loop and pass the related timer handler.
  + Put the block of code to be measured between code_execution_timer_start() and code_execution_timer_stop().
  + Access execution.ctr_ms and execution.ctr_us to see how much your tested block of code takes to execute.
-  + You can use code_execution_timer_print() to print the result if printf is explicitly directed to serial USART.
+   + You can use code_execution_timer_print() to print the result if printf is explicitly directed to serial USART.
