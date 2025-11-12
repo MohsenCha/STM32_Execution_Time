@@ -1,4 +1,4 @@
-# STM32_Execution_Time
+# STM32 Code Execution Time Measurement
 This library is used for measuring code execution time on STM32 MCUs using a hardware timer.
 ## Features ##
  + _Simple to use and integrate_
